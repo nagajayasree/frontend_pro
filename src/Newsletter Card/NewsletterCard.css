@@ -1,0 +1,41 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  transition: color 0.2s;
+  height: 32px;
+}
+
+.inputfield {
+  width: 50%;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 24%;
+  background-color: black;
+  color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.btn :hover {
+  opacity: 0.6;
+}

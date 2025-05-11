@@ -16,14 +16,29 @@ html {
   border-radius: 8px;
 }
 
+/* .star {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star:hover,
+.star.active {
+  color: #ffc107;
+} */
+
 .stars-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin: 20px 0;
+  cursor: pointer;
+  transition: color 0.2s;
 }
 
-.stars-container :not(:focus):hover {
+.stars-container :hover,
+.stars-container.active {
   display: flex;
   color: gold;
 }

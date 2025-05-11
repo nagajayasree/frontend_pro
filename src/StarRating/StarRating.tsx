@@ -38,8 +38,8 @@ const messagesArray = [
 
 export default function StarRating({ totalStars }: StarRatingProps) {
   const [rating, setRating] = useState(0);
-  const [messages, setMessages] = useState(messagesArray);
   const [message, setMessage] = useState('');
+  const [messages, setMessages] = useState(messagesArray);
   const stars = Array(totalStars).fill(0);
 
   return (
